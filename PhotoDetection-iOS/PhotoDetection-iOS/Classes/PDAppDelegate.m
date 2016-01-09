@@ -6,17 +6,24 @@
 //  Copyright © 2016 Alvin Cris Uy. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "PDAppDelegate.h"
+#import "PDRootViewController.h"
 
-@interface AppDelegate ()
-
-@end
-
-@implementation AppDelegate
-
+@implementation PDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (!self.rootViewController) {
+        PDRootViewController *vc = [[PDRootViewController alloc] init];
+        vc.view.frame = [[UIScreen mainScreen] bounds];
+        self.rootViewController = vc;
+        [self.window addSubview:self.rootViewController.view];
+        self.window.rootViewController = self.rootViewController;
+    }
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

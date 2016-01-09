@@ -1,0 +1,17 @@
+//
+//  PDPrefixHeader.pch
+//  PhotoDetection-iOS
+//
+//  Created by Cris Uy on 10/01/2016.
+//  Copyright © 2016 Alvin Cris Uy. All rights reserved.
+//
+
+#if defined(DEBUG)
+    #ifndef NSLog
+        #define NSLog( m, args... ) NSLog( m, ##args )
+#endif
+#else
+    #ifndef NSLog
+        #define NSLog( m, args... )
+#endif
+#endif
