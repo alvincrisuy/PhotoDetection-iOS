@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  PhotoDetection-iOS
+//
+//  Created by Cris Uy on 09/01/2016.
+//  Copyright © 2016 Alvin Cris Uy. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
