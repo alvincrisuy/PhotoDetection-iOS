@@ -7,6 +7,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PDRootViewController">
             <connections>
+                <outlet property="backButton" destination="LFx-3Z-QLe" id="OGh-Il-7H0"/>
+                <outlet property="backButtonView" destination="NV6-G3-wba" id="dzw-0l-Wde"/>
+                <outlet property="contentView" destination="Z8A-YK-mJa" id="jpX-eW-BXn"/>
+                <outlet property="navigationView" destination="gmP-AX-ZwO" id="YXm-uU-1pQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +18,48 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmP-AX-ZwO">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="HJS-c9-yOQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z8A-YK-mJa">
+                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Z8A-YK-mJa" secondAttribute="bottom" id="0Bl-tS-cMw"/>
+                <constraint firstItem="Z8A-YK-mJa" firstAttribute="top" secondItem="gmP-AX-ZwO" secondAttribute="bottom" id="11C-Ha-Sq2"/>
+                <constraint firstItem="Z8A-YK-mJa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5DV-qu-bbb"/>
+                <constraint firstItem="gmP-AX-ZwO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="P63-p6-lMO"/>
+                <constraint firstItem="gmP-AX-ZwO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Q3c-aP-jhj"/>
+                <constraint firstItem="Z8A-YK-mJa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XVC-cy-cfA"/>
+                <constraint firstAttribute="trailing" secondItem="gmP-AX-ZwO" secondAttribute="trailing" id="iPC-GY-OGJ"/>
+                <constraint firstItem="gmP-AX-ZwO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="o2K-uH-gYq"/>
+                <constraint firstItem="Z8A-YK-mJa" firstAttribute="top" secondItem="gmP-AX-ZwO" secondAttribute="bottom" id="oNP-W7-DUG"/>
+                <constraint firstAttribute="trailing" secondItem="Z8A-YK-mJa" secondAttribute="trailing" id="vOa-dt-lTk"/>
+            </constraints>
+        </view>
+        <view contentMode="scaleToFill" id="NV6-G3-wba">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFx-3Z-QLe">
+                    <rect key="frame" x="7" y="15" width="46" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
 </document>
