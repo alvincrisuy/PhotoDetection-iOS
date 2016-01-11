@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		783A041C1C41B96400261387 /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 783A04131C41B96400261387 /* PDAppDelegate.m */; };
+		783A041C1C41B96400261387 /* PDAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 783A04131C41B96400261387 /* PDAppDelegate.mm */; };
 		783A041D1C41B96400261387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783A04181C41B96400261387 /* Assets.xcassets */; };
 		783A041F1C41B96400261387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 783A041B1C41B96400261387 /* main.m */; };
-		783A04251C41BE5A00261387 /* PDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783A04231C41BE5A00261387 /* PDRootViewController.m */; };
+		783A04251C41BE5A00261387 /* PDRootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 783A04231C41BE5A00261387 /* PDRootViewController.mm */; };
 		783A04261C41BE5A00261387 /* PDRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783A04241C41BE5A00261387 /* PDRootViewController.xib */; };
 		783A04281C41C30B00261387 /* PDAppDelegate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783A04271C41C30B00261387 /* PDAppDelegate.xib */; };
-		783A042D1C41C6E700261387 /* PDCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783A042B1C41C6E700261387 /* PDCameraViewController.m */; };
+		783A042D1C41C6E700261387 /* PDCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 783A042B1C41C6E700261387 /* PDCameraViewController.mm */; };
 		783A042E1C41C6E700261387 /* PDCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783A042C1C41C6E700261387 /* PDCameraViewController.xib */; };
 		7876F3181C415F890014D67A /* PhotoDetection_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7876F3171C415F890014D67A /* PhotoDetection_iOSTests.m */; };
 		7876F3231C415F890014D67A /* PhotoDetection_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7876F3221C415F890014D67A /* PhotoDetection_iOSUITests.m */; };
@@ -38,17 +38,17 @@
 
 /* Begin PBXFileReference section */
 		783A04121C41B96400261387 /* PDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
-		783A04131C41B96400261387 /* PDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		783A04131C41B96400261387 /* PDAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PDAppDelegate.mm; sourceTree = "<group>"; };
 		783A04181C41B96400261387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783A041A1C41B96400261387 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		783A041B1C41B96400261387 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		783A04201C41BA6900261387 /* PDPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPrefixHeader.pch; sourceTree = "<group>"; };
 		783A04221C41BE5A00261387 /* PDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDRootViewController.h; sourceTree = "<group>"; };
-		783A04231C41BE5A00261387 /* PDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDRootViewController.m; sourceTree = "<group>"; };
+		783A04231C41BE5A00261387 /* PDRootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PDRootViewController.mm; sourceTree = "<group>"; };
 		783A04241C41BE5A00261387 /* PDRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDRootViewController.xib; sourceTree = "<group>"; };
 		783A04271C41C30B00261387 /* PDAppDelegate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDAppDelegate.xib; sourceTree = "<group>"; };
 		783A042A1C41C6E700261387 /* PDCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCameraViewController.h; sourceTree = "<group>"; };
-		783A042B1C41C6E700261387 /* PDCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCameraViewController.m; sourceTree = "<group>"; };
+		783A042B1C41C6E700261387 /* PDCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PDCameraViewController.mm; sourceTree = "<group>"; };
 		783A042C1C41C6E700261387 /* PDCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDCameraViewController.xib; sourceTree = "<group>"; };
 		7876F2FA1C415F890014D67A /* PhotoDetection-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoDetection-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7876F3131C415F890014D67A /* PhotoDetection-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhotoDetection-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				783A04121C41B96400261387 /* PDAppDelegate.h */,
-				783A04131C41B96400261387 /* PDAppDelegate.m */,
+				783A04131C41B96400261387 /* PDAppDelegate.mm */,
 				783A04271C41C30B00261387 /* PDAppDelegate.xib */,
 				783A04141C41B96400261387 /* Controller */,
 				783A04151C41B96400261387 /* Model */,
@@ -142,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				783A04221C41BE5A00261387 /* PDRootViewController.h */,
-				783A04231C41BE5A00261387 /* PDRootViewController.m */,
+				783A04231C41BE5A00261387 /* PDRootViewController.mm */,
 				783A04241C41BE5A00261387 /* PDRootViewController.xib */,
 			);
 			path = PDRootViewController;
@@ -152,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				783A042A1C41C6E700261387 /* PDCameraViewController.h */,
-				783A042B1C41C6E700261387 /* PDCameraViewController.m */,
+				783A042B1C41C6E700261387 /* PDCameraViewController.mm */,
 				783A042C1C41C6E700261387 /* PDCameraViewController.xib */,
 			);
 			path = PDCameraViewController;
@@ -338,10 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				783A04251C41BE5A00261387 /* PDRootViewController.m in Sources */,
+				783A04251C41BE5A00261387 /* PDRootViewController.mm in Sources */,
 				783A041F1C41B96400261387 /* main.m in Sources */,
-				783A041C1C41B96400261387 /* PDAppDelegate.m in Sources */,
-				783A042D1C41C6E700261387 /* PDCameraViewController.m in Sources */,
+				783A041C1C41B96400261387 /* PDAppDelegate.mm in Sources */,
+				783A042D1C41C6E700261387 /* PDCameraViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
