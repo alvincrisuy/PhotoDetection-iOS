@@ -273,6 +273,7 @@
 				TargetAttributes = {
 					7876F2F91C415F890014D67A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L2SXWB2TAK;
 					};
 					7876F3121C415F890014D67A = {
 						CreatedOnToolsVersion = 7.2;
@@ -462,13 +463,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alvin Cris Leonardo Uy (6Z6VQ8D879)";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoDetection-iOS/Supporting Files/PDPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/PhotoDetection-iOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alvincrisuy.PhotoDetection-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pancakeunlimited.photodetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f3f5dc11-0ab9-4236-ade7-39e63bd7aece";
 			};
 			name = Debug;
 		};
@@ -476,13 +479,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alvin Cris Leonardo Uy (L2SXWB2TAK)";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoDetection-iOS/Supporting Files/PDPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/PhotoDetection-iOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alvincrisuy.PhotoDetection-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pancakeunlimited.photodetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c686e3aa-c45f-4af4-aae9-103d9f695b8b";
 			};
 			name = Release;
 		};
