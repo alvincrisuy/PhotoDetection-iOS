@@ -8,6 +8,18 @@
 
 #import "PDCameraViewController.h"
 
+
+// not here - start
+#define kNumTextures 2
+
+namespace {
+    const char* textureFilenames[] = {
+        "human_1.png",
+        "human_2.png",
+    };
+}
+// not here - end
+
 @interface PDCameraViewController ()
 
 @end
